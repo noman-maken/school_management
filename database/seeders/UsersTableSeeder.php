@@ -29,7 +29,7 @@ class UsersTableSeeder extends Seeder
 
         $d = [
 
-            ['name' => 'CJ Inspired',
+            ['name' => 'Noman Maken',
                 'email' => 'cj@cj.com',
                 'username' => 'cj',
                 'password' => $password,

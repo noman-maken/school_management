@@ -1481,7 +1481,7 @@ CREATE TABLE `settings` (
 INSERT INTO `settings` (`id`, `type`, `description`, `created_at`, `updated_at`) VALUES
 (1, 'current_session', '2018-2019', NULL, NULL),
 (2, 'system_title', 'CJIA', NULL, NULL),
-(3, 'system_name', 'CJ INSPIRED ACADEMY', NULL, NULL),
+(3, 'system_name', 'Noman Maken ACADEMY', NULL, NULL),
 (4, 'term_ends', '7/10/2018', NULL, NULL),
 (5, 'term_begins', '7/10/2018', NULL, NULL),
 (6, 'phone', '0123456789', NULL, NULL),
@@ -1810,7 +1810,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `code`, `username`, `user_type`, `dob`, `gender`, `photo`, `phone`, `phone2`, `bg_id`, `state_id`, `lga_id`, `nal_id`, `address`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'CJ Inspired', 'cj@cj.com', '8XG1CP5LQV', 'cj', 'super_admin', NULL, NULL, 'http://127.0.0.1:8000/storage/uploads/super_admin/8XG1CP5LQV/photo.jpg', '03207584939', NULL, NULL, NULL, NULL, NULL, 'Mollit quam maxime p', NULL, '$2y$10$.tlr/sOSthEHU7xgs5PmaO1PxsfgwTGkPHHltq7Z2Vhu17aKq6SMm', 'V2knp5WJUB', NULL, '2023-12-28 22:17:30'),
+(1, 'Noman Maken', 'cj@cj.com', '8XG1CP5LQV', 'cj', 'super_admin', NULL, NULL, 'http://127.0.0.1:8000/storage/uploads/super_admin/8XG1CP5LQV/photo.jpg', '03207584939', NULL, NULL, NULL, NULL, NULL, 'Mollit quam maxime p', NULL, '$2y$10$.tlr/sOSthEHU7xgs5PmaO1PxsfgwTGkPHHltq7Z2Vhu17aKq6SMm', 'V2knp5WJUB', NULL, '2023-12-28 22:17:30'),
 (2, 'Admin KORA', 'admin@admin.com', 'CLTJMGDLOJ', 'admin', 'admin', NULL, NULL, 'http://localhost/lav_sms/global_assets/images/user.png', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '$2y$10$.tlr/sOSthEHU7xgs5PmaO1PxsfgwTGkPHHltq7Z2Vhu17aKq6SMm', 'B4BGcql6Xo', NULL, NULL),
 (3, 'Teacher Chike', 'teacher@teacher.com', 'KOZQZJTOZP', 'teacher', 'teacher', NULL, NULL, 'http://localhost/lav_sms/global_assets/images/user.png', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '$2y$10$.tlr/sOSthEHU7xgs5PmaO1PxsfgwTGkPHHltq7Z2Vhu17aKq6SMm', 'nSUuapo72I', NULL, NULL),
 (4, 'Parent Kaba', 'parent@parent.com', 'RYJJSFALTR', 'parent', 'parent', NULL, NULL, 'http://localhost/lav_sms/global_assets/images/user.png', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '$2y$10$.tlr/sOSthEHU7xgs5PmaO1PxsfgwTGkPHHltq7Z2Vhu17aKq6SMm', 'QWPbWPhm5Z', NULL, NULL),
